@@ -1,4 +1,5 @@
 ## Rules
+
 - Never add "Co-Authored-By" or AI attribution to commits. Use conventional commits only.
 - Never build after changes.
 - When asking a question, STOP and wait for response. Never continue or assume answers.
