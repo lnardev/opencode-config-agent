@@ -1,7 +1,6 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "agent": {
-    
     "sdd-apply": {
       "description": "Implement code changes from task definitions",
       "hidden": true,
