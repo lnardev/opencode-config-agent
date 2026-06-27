@@ -1,6 +1,6 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "agent": {
+  "agent": {  
     "sdd-apply": {
       "description": "Implement code changes from task definitions",
       "hidden": true,
@@ -172,7 +172,15 @@
         "--tools=agent"
       ],
       "type": "local"
+    },
+    "neon": {
+      "type": "remote",
+      "url": "https://mcp.neon.tech/mcp",
+      "headers": {
+        "Authorization": "Bearer napi_wlrl5q2cn35pq28ciho5yr3e6vc2j5zodcg0ra6mxs20z8g8i8ntwdmscppqzv50"
+      }
     }
+  
   },
   "permission": {
     "bash": {
@@ -193,6 +201,8 @@
       "*.env": "deny",
       "*.env.*": "deny"
     }
-  }
+  },
+ "plugin": ["opencode-anthropic-login-via-cli@latest"]
   
 }
+
